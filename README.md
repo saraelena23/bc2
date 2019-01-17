@@ -1,5 +1,5 @@
 # Introduction to Front-end development with Angular.js
-We will continue to build upon our directory application by creating a front-end interface with Angular.js to display listings, as well as the ability to add new listings and delete old ones.
+We will continue to build upon our directory application by creating a front-end interface with AngularJS to display listings, as well as the ability to add new listings and delete old ones.
 
 ### HTML/CSS
 HTML (HyperText Markup Language) is a [**markup language**](https://en.wikipedia.org/wiki/Markup_language) most commonly used to create web pages. CSS (Cascading Style Sheets) is used to describe the presentation of our HTML pages. HTML and CSS are used along with Javascript to create web applications both simple and complex alike. 
@@ -12,7 +12,7 @@ Please go through [this tutorial](http://learn.shayhowe.com) to learn the fundam
 - Positioning content with CSS
 
 ### Bootstrap
-While we could create our web application with just HTML, CSS, and Javascript, writing all of our styles from scratch would be tedious. 
+While we could create our web application with just HTML, CSS, and Javascript, writing all of our styles from scratch could be time consuming. 
 
 Say we have an application that will be used by desktop, tablet, and mobile users alike. Our CSS would have to be **responsive**, changing the layout of the page depending on the user's device. Luckily, we have [**Bootstrap**](http://getbootstrap.com/), a responsive HTML/CSS/JS framework made by Twitter, to style our web applications. Bootstrap provides a [grid system](http://getbootstrap.com/css/#grid) for easy layout and [many components](http://getbootstrap.com/components/#nav) that will give the application a clean, modern, and consistent look. 
 
@@ -48,28 +48,20 @@ You *do not* need to go through all of these, just start to get familiar enough 
 
 ### Assignment 
 As before, We have provided skeleton code that will help guide you in completing this assignment. 
-##### Files provided in Assignment #2
-- index.html
-- app.js
-- listingController.js
-- listingFactory.js
-- README
-- style.css
-- package.json
+
 ##### Orientation to the files provided for this assignment:
 - In basic static HTML websites, **index.html** is the "homepage" or "landing page" when you visit a website. In node web applications, both index.html and app.js are used. 
-- **Index.html** has a basic template for the page and references the CSS frameworks
+- **index.html** has a basic template for the page and references the CSS frameworks
 is used to control the style of the content on the landing page. Thus, the index.html is the view that the user sees. 
 - **app.js** registers the dependencies (i.e., modules needed to run the app).
 - **style.css** - is the style formatting used to design the look and feel of the index.html page 
-- **listingController.js** - is a file that holds the code that Angular.js uses to control what is rendered on the browser in response to a user's interaction with the website
-- **listingFactory.js** - is that same content that we had in our listings.json file for Assignment #1 but formatted into an object that Angular.js can manipulate
-- **README** - You already know what this file contains.
+- **listingController.js** - is a file that holds the code that AngularJS uses to control what is rendered on the browser in response to a user's interaction with the website
+- **listingFactory.js** - is that same content that we had in our listings.json file for Assignment #1 but formatted into an object that AngularJS can manipulate
 
 #### Assignment Objectives
 Your objective is to create the front-end of our UF Directory App that will display the listings and allow the user to add and delete old ones. 
 To accomplish this you will:
-- modify the **listingController.js** file to  display listings, as well as the ability to add new listings and delete old ones.
+- modify the **listingController.js** file to display listings, as well as the ability to add new listings and delete old ones.
 - 
 ### Tasks 
 Take a look at the source code provided to you, and map out how the different files communicate with one another. You will notice there is a *factory*, a *controller*, and a *view* (provided by the index.html page). It is your responsibility to:
@@ -78,9 +70,6 @@ Take a look at the source code provided to you, and map out how the different fi
 2. Implement the prompts in the HTML view to make the application functional
 
 # Instructions: 
-1. Fork this repository and then navigate to it on your local machine's terminal 
+1. Clone this repository and then navigate to it on your local machine's terminal 
 2. Implement the tasks listed above
-3. Check your that it works by looking at the index.html file in your favorit browser
-4. Points towards Project Bidding - Style your page using CSS
-
-Note: Project Bidding Points give your group an edge over other groups for priority in choosing projects
+3. Check your that it works by looking at the index.html file in your favorite browser
