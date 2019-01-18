@@ -51,8 +51,7 @@ As before, We have provided skeleton code that will help guide you in completing
 
 ##### Orientation to the files provided for this assignment:
 - In basic static HTML websites, **index.html** is the "homepage" or "landing page" when you visit a website. In node web applications, both index.html and app.js are used. 
-- **index.html** has a basic template for the page and references the CSS frameworks
-is used to control the style of the content on the landing page. Thus, the index.html is the view that the user sees. 
+- **index.html** has a basic template for the page and references the CSS frameworks used to control the style of the content on the landing page. Thus, the index.html is the view that the user sees. 
 - **app.js** registers the dependencies (i.e., modules needed to run the app).
 - **style.css** - is the style formatting used to design the look and feel of the index.html page 
 - **listingController.js** - is a file that holds the code that AngularJS uses to control what is rendered on the browser in response to a user's interaction with the website
