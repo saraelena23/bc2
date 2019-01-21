@@ -60,8 +60,8 @@ As before, We have provided skeleton code that will help guide you in completing
 #### Assignment Objectives
 Your objective is to create the front-end of our UF Directory App that will display the listings and allow the user to add and delete old ones. 
 To accomplish this you will:
-- modify the **listingController.js** file to display listings, as well as the ability to add new listings and delete old ones.
-- 
+- modify the **index.html** and **listingController.js** file to display listings, as well as the ability to add new listings and delete old ones.
+
 ### Tasks 
 Take a look at the source code provided to you, and map out how the different files communicate with one another. You will notice there is a *factory*, a *controller*, and a *view* (provided by the index.html page). It is your responsibility to:
 
